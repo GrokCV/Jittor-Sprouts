@@ -1,34 +1,99 @@
 # Sprouts-Jittor
 
-
 新芽式的考核（新芽训练营、大组保研）均需采用 Jittor 复现代码。本 Repo 收集整理一些目前已有的 Jittor 开源代码，从而可以方便正在接受考核的同学尽量避免重复实现已有 Jittor 代码的工作。需要注意的是，本 Repo 收集的并不全面，对于具体工作，还请更大范围搜索后再判定是否适合作为考核选题。
 
-## 恶劣环境视觉感知
-
-| Year | Venue | Model        | Document Title                                               | 代码地址                                          | 事由       |
-| ---- | ----- | ------------ | ------------------------------------------------------------ | ------------------------------------------------- | ---------- |
-| 2021 | ICCV  | DC-ShadowNet | DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network | https://github.com/Wang-Yi-Yu/Jittor_DC-ShadowNet | 新芽训练营 |
-|      |       |              |                                                              |                                                   |            |
+**Under Construction**
 
 
 
-## 生成模型
+更新日期：2025.8.10
 
-| Year | Venue | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | ----- | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2020 | CVPR  | StarGAN v2 | StarGAN v2: Diverse Image Synthesis for Multiple Domains | https://github.com/SidneyLu/StarGAN2j | 新芽训练营 |
-|      |       |            |                                                          |                                       |            |
+
+
+## 基础网络架构
+
+| Year | Venue | Model            | Document Title                                               | 代码地址                                   | 事由     |
+| ---- | ----- | ---------------- | ------------------------------------------------------------ | ------------------------------------------ | -------- |
+| 2021 | ICCV  | Swin Transformer | Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows | https://github.com/Miaehal/jt_pytorch_swin | 保研面试 |
 
 
 
 ## 持续学习
 
-| Year | Venue | Model   | Document Title                                               | 代码地址                                      | 事由       |
-| ---- | ----- | ------- | ------------------------------------------------------------ | --------------------------------------------- | ---------- |
-| 2016 | ECCV  | LWF     | Learning Without Forgetting                                  | https://github.com/kira9339/jittor_lwf        | 新芽训练营 |
-| 2018 | CVPR  | PackNet | PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning | <https://github.com/Fun-James/PackNet-Jittor> | 新芽训练营 |
-|      |       |         |                                                              |                                               |            |
-|      |       |         |                                                              |                                               |            |
+| Year | Venue | Model   | Document Title                                               | 代码地址                                      | 事由     |
+| ---- | ----- | ------- | ------------------------------------------------------------ | --------------------------------------------- | -------- |
+| 2016 | ECCV  | LWF     | Learning Without Forgetting                                  | https://github.com/kira9339/jittor_lwf        | 新芽培育 |
+| 2018 | CVPR  | PackNet | PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning | <https://github.com/Fun-James/PackNet-Jittor> | 新芽培育 |
+|      |       |         |                                                              |                                               |          |
+|      |       |         |                                                              |                                               |          |
+
+
+
+## 图像重建与复原
+
+| Year | Venue | Model         | Document Title                                               | 代码地址                                                | 事由     |
+| ---- | ----- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------- | -------- |
+| 2021 | CVPR  | LIIF          | Learning Continuous Image Representation with Local Implicit Image Function | https://github.com/a1ei/liif_jittor                     | 保研面试 |
+| 2021 | CVPR  | LIIF          | Learning Continuous Image Representation with Local Implicit Image Function | https://github.com/WindATree/LIIF-Jittor                | 保研面试 |
+| 2022 | CVPR  | Blind2Unblind | Blind2Unblind: Self-Supervised Image Denoising with Visible Blind Spots | https://github.com/Qu-a-n/B2UwithJittor                 | 保研面试 |
+| 2024 | TPAMI | Flow_PWC      | Self-Supervised Deep Blind Video Super-Resolution            | https://github.com/Athena-Re/Self-Blind-VSR-with-Jittor | 保研面试 |
+
+
+
+## 通用目标检测
+
+| Year | Venue   | Model        | Document Title                                               | 代码地址                                            | 事由     |
+| ---- | ------- | ------------ | ------------------------------------------------------------ | --------------------------------------------------- | -------- |
+| 2015 | NeurIPS | Faster R-CNN | Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | https://github.com/arianna-h/exam_jittor            | 保研面试 |
+| 2015 | NeurIPS | Faster R-CNN | Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | https://github.com/wwiinndd/TwoStageDeteciton       | 保研面试 |
+| 2015 | NeurIPS | Faster R-CNN | Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | https://github.com/Holysmiles/faster_rcnn_jittor    | 保研面试 |
+| 2017 | CVPR    | RetinaNet    | Focal Loss for Dense Object Detection                        | https://github.com/Running-Turtle1/jittor-retinanet | 保研面试 |
+| 2021 | CVPR    | GFL V2       | Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection | https://github.com/FuZhongyuan/GFocalV2             | 保研面试 |
+| 2020 | ECCV    | DETR         | End-to-End Object Detection with Transformers                | https://github.com/Ber0ton/DETR-Jittor-and-Pytorch/ | 保研面试 |
+
+
+
+## 小样本学习（分类、分割、检测）
+
+| Year | Venue          | Model      | Document Title                                               | 代码地址                                                     | 事由     |
+| ---- | -------------- | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
+| 2015 | MICCAI         | UNet       | U-Net: Convolutional Networks for Biomedical Image Segmentation | https://github.com/xyt732/xyt                                | 保研面试 |
+| 2023 | ArXiv          | FS-MedSAM2 | RFS-MedSAM2: Exploring the Potential of SAM2 for Few-Shot Medical Image Segmentation without Fine-tuning | https://github.com/MasterAlphZero/JtToFSMedSAM2              | 保研面试 |
+| 2022 | CVPR           | Imagen     | Prompt-to-Prompt Image Editing with Cross-Attention Control  | https://github.com/NJUST-wyx/20---prompt-to-prompt?tab=readme-ov-file | 保研面试 |
+| 2023 | IEEE Xplore    | CPANet     | Cross Position Aggregation Network for Few-shot Strip Steel Surface Defect Segmentation | https://github.com/ZSLsherly/CPANet-Pytorch-Jittor/tree/master/CPANet | 保研面试 |
+| 2020 | Neurocomputing | ResNet-50  | Revisiting Metric Learning for Few-Shot Image Classification | https://github.com/withernova/Revisiting_Metric_Learning_for_Few-Shot_Image_Classification/tree/ori_essay | 保研面试 |
+| 2023 | MIDL           | UNet       | MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model | https://github.com/jarambler/MedSegDiff-Jittor/tree/main     | 保研面试 |
+| 2024 | PMLR           | MedSegDiff | MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model | https://github.com/XD-XXF/MedSegDiff-Jittor                  | 保研面试 |
+| 2023 | ICCV           | SCCAN      | Self-Calibrated Cross Attention Network for Few-Shot Segmentation | https://github.com/AllenReder/SCCAN-jittor                   | 保研面试 |
+| 2020 | IEEE           | CPANet     | Cross Position Aggregation Network for Few-Shot Strip Steel Surface Defect Segmentation | https://github.com/SidneyLu/StarGAN2j                        | 保研面试 |
+|      |                |            |                                                              |                                                              |          |
+|      |                |            |                                                              |                                                              |          |
+|      |                |            |                                                              |                                                              |          |
+|      |                |            |                                                              |                                                              |          |
+|      |                |            |                                                              |                                                              |          |
+|      |                |            |                                                              |                                                              |          |
+|      |                |            |                                                              |                                                              |          |
+|      |                |            |                                                              |                                                              |          |
+
+
+
+
+
+## 恶劣环境视觉感知
+
+| Year | Venue | Model        | Document Title                                               | 代码地址                                          | 事由     |
+| ---- | ----- | ------------ | ------------------------------------------------------------ | ------------------------------------------------- | -------- |
+| 2021 | ICCV  | DC-ShadowNet | DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network | https://github.com/Wang-Yi-Yu/Jittor_DC-ShadowNet | 新芽培育 |
+|      |       |              |                                                              |                                                   |          |
+
+
+
+## 图像生成模型
+
+| Year | Venue | Model      | Document Title                                           | 代码地址                              | 事由     |
+| ---- | ----- | ---------- | -------------------------------------------------------- | ------------------------------------- | -------- |
+| 2020 | CVPR  | StarGAN v2 | StarGAN v2: Diverse Image Synthesis for Multiple Domains | https://github.com/SidneyLu/StarGAN2j | 新芽培育 |
+|      |       |            |                                                          |                                       |          |
 
 
 
@@ -43,46 +108,6 @@
 
 
 
-## 小样本学习（分类、分割、检测）
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2015 | MICCAI | UNet | U-Net: Convolutional Networks for Biomedical Image Segmentation | https://github.com/xyt732/xyt | 保研面试 |
-| 2023 | ArXiv | FS-MedSAM2 | RFS-MedSAM2: Exploring the Potential of SAM2 for Few-Shot Medical Image Segmentation without Fine-tuning | https://github.com/MasterAlphZero/JtToFSMedSAM2 | 保研面试 |
-|      |        |            |                                                              |                                                 |          |
-## 图像重建与复原
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2021 | CVPR | RDN-LIIF | Learning Continuous Image Representation with Local Implicit Image Function | https://github.com/a1ei/liif_jittor | 保研面试 |
-| 2022 | CVPR | Blind2Unblind | Blind2Unblind: Self-Supervised Image Denoising with Visible Blind Spots | https://github.com/Qu-a-n/B2UwithJittor | 保研面试 |
-|      |       |                  |                                                              |                                                         |          |
-| 2024 | TPAMI |    Flow_PWC   | Self-Supervised Deep Blind Video Super-Resolution | https://github.com/Athena-Re/Self-Blind-VSR-with-Jittor | 保研面试 |
-| 2021 | ICCV  | Swin Transformer | Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows | https://github.com/Miaehal/jt_pytorch_swin | 保研面试 |
-| 2021 | CVPR | LIIF | Image Reconstruction and Restoration | https://github.com/WindATree/LIIF-Jittor | 保研面试 |
-
-## 通用目标检测：从经典到前沿
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2016 | CVPR | Faster R-CNN | Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | https://github.com/arianna-h/exam_jittor | 保研面试 |
-| 2016 | CVPR                                  | Faster R-CNN | Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | https://github.com/wwiinndd/TwoStageDeteciton                | 保研面试 |
-| 2017 | CVPR | RetinaNet | Focal Loss for Dense Object Detection | https://github.com/Running-Turtle1/jittor-retinanet | 保研面试 |
-| 2021 | CVPR | GFLV2 | Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection | https://github.com/FuZhongyuan/GFocalV2 | 保研面试 |
-| 2017 | CVPR | Faster R-CNN | General Object Detection: From Classic to Cutting-Edge | https://github.com/Holysmiles/faster_rcnn_jittor | 保研面试 |
-| 2020 | ECCV | DETR | General Object Detection: From Classic to Cutting-Edge | https://github.com/Ber0ton/DETR-Jittor-and-Pytorch/ | 保研面试 |
-
-## 小样本图像分割与分类
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2022 | CVPR | Imagen | Prompt-to-Prompt Image Editing with Cross-Attention Control | https://github.com/NJUST-wyx/20---prompt-to-prompt?tab=readme-ov-file | 保研面试 |
-| 2023 | IEEE Xplore | CPANet | Cross Position Aggregation Network for Few-shot Strip Steel Surface Defect Segmentation | https://github.com/ZSLsherly/CPANet-Pytorch-Jittor/tree/master/CPANet | 保研面试 |
-| 2020 | Neurocomputing | ResNet-50 | Revisiting Metric Learning for Few-Shot Image Classification              | https://github.com/withernova/Revisiting_Metric_Learning_for_Few-Shot_Image_Classification/tree/ori_essay | 保研面试 |
-| 2023 | MIDL           | UNet      | MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model | https://github.com/jarambler/MedSegDiff-Jittor/tree/main                                                  | 保研面试 |
-| 2024 | PMLR  | MedSegDiff | MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model | https://github.com/XD-XXF/MedSegDiff-Jittor | 保研面试 |
-| 2023 | ICCV  | SCCAN      | Self-Calibrated Cross Attention Network for Few-Shot Segmentation         | https://github.com/AllenReder/SCCAN-jittor  | 保研面试 |
-| 2020 | IEEE  | CPANet | Cross Position Aggregation Network for Few-Shot Strip Steel Surface Defect Segmentation | https://github.com/SidneyLu/StarGAN2j | 保研面试 |
 
 
 ## 持续学习：从基础到前沿
