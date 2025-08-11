@@ -2,15 +2,11 @@
 
 新芽式的考核（新芽训练营、大组保研）均需采用 Jittor 复现代码。本 Repo 收集整理一些目前已有的 Jittor 开源代码，从而可以方便正在接受考核的同学尽量避免重复实现已有 Jittor 代码的工作。需要注意的是，本 Repo 收集的并不全面，对于具体工作，还请更大范围搜索后再判定是否适合作为考核选题。
 
-**Under Construction**
+更新日期：2025.8.11
 
 
 
-更新日期：2025.8.10
-
-
-
-## 基础网络架构
+## 1 基础网络架构
 
 | Year | Venue | Model            | Document Title                                               | 代码地址                                   | 事由     |
 | ---- | ----- | ---------------- | ------------------------------------------------------------ | ------------------------------------------ | -------- |
@@ -19,7 +15,7 @@
 
 
 
-## 持续学习
+## 2 持续学习
 
 | Year | Venue   | Model     | Document Title                                               | 代码地址                                           | 事由     |
 | ---- | ------- | --------- | ------------------------------------------------------------ | -------------------------------------------------- | -------- |
@@ -33,18 +29,20 @@
 
 
 
-## 图像重建与复原
+## 3 图像重建与复原
 
 | Year | Venue | Model         | Document Title                                               | 代码地址                                                | 事由     |
 | ---- | ----- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------- | -------- |
 | 2021 | CVPR  | LIIF          | Learning Continuous Image Representation with Local Implicit Image Function | https://github.com/a1ei/liif_jittor                     | 保研面试 |
 | 2021 | CVPR  | LIIF          | Learning Continuous Image Representation with Local Implicit Image Function | https://github.com/WindATree/LIIF-Jittor                | 保研面试 |
+| 2023 | CVPR  | DNF           | DNF: Decouple and Feedback Network for Seeing in the Dark    | https://github.com/RRRRReus/DNF-Jittor-Reproduction     | 保研面试 |
 | 2022 | CVPR  | Blind2Unblind | Blind2Unblind: Self-Supervised Image Denoising with Visible Blind Spots | https://github.com/Qu-a-n/B2UwithJittor                 | 保研面试 |
 | 2024 | TPAMI | Flow_PWC      | Self-Supervised Deep Blind Video Super-Resolution            | https://github.com/Athena-Re/Self-Blind-VSR-with-Jittor | 保研面试 |
+|      |       |               |                                                              |                                                         |          |
 
 
 
- ## 图像编辑
+ ## 4 图像编辑
 
 | Year | Venue | Model  | Document Title                                              | 代码地址                                           | 事由     |
 | ---- | ----- | ------ | ----------------------------------------------------------- | -------------------------------------------------- | -------- |
@@ -53,7 +51,29 @@
 
 
 
-## 通用目标检测
+
+
+ ## 5 图像分割
+
+| Year | Venue | Model | Document Title                                          | 代码地址                                        | 事由     |
+| ---- | ----- | ----- | ------------------------------------------------------- | ----------------------------------------------- | -------- |
+| 2020 | CVPR  | SINet | Camouflaged Object Detection: From Method to Cognition  | https://github.com/WUKEYINGING/Jittor-SINet-WKY | 保研面试 |
+| 2021 | CVPR  | PFNet | Camouflaged Object Segmentation With Distraction Mining | https://github.com/ejekess/PFNet_jittor         | 保研面试 |
+
+
+
+ ## 6 多模态融合
+
+| Year | Venue              | Model      | Document Title                                               | 代码地址                                 | 事由     |
+| ---- | ------------------ | ---------- | ------------------------------------------------------------ | ---------------------------------------- | -------- |
+| 2023 | Information Fusion | PSFusion   | Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity | https://github.com/yzbcs/PSFusionJittor  | 保研面试 |
+| 2025 | CVPR               | SelfGIFNet | One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion | https://github.com/Kallen6669/SelfGIFNet | 保研面试 |
+
+
+
+
+
+## 7 通用目标检测
 
 | Year | Venue   | Model        | Document Title                                               | 代码地址                                            | 事由     |
 | ---- | ------- | ------------ | ------------------------------------------------------------ | --------------------------------------------------- | -------- |
@@ -61,12 +81,12 @@
 | 2015 | NeurIPS | Faster R-CNN | Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | https://github.com/wwiinndd/TwoStageDeteciton       | 保研面试 |
 | 2015 | NeurIPS | Faster R-CNN | Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | https://github.com/Holysmiles/faster_rcnn_jittor    | 保研面试 |
 | 2017 | CVPR    | RetinaNet    | Focal Loss for Dense Object Detection                        | https://github.com/Running-Turtle1/jittor-retinanet | 保研面试 |
-| 2021 | CVPR    | GFL V2       | Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection | https://github.com/FuZhongyuan/GFocalV2             | 保研面试 |
 | 2020 | ECCV    | DETR         | End-to-End Object Detection with Transformers                | https://github.com/Ber0ton/DETR-Jittor-and-Pytorch/ | 保研面试 |
+| 2021 | CVPR    | GFL V2       | Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection | https://github.com/FuZhongyuan/GFocalV2             | 保研面试 |
 
 
 
-## 小样本学习（分类、分割、检测）
+## 8 小样本学习（分类、分割、检测）
 
 | Year | Venue          | Model      | Document Title                                               | 代码地址                                                     | 事由     |
 | ---- | -------------- | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
@@ -81,31 +101,21 @@
 
 
 
-## 恶劣环境视觉感知
+## 9 恶劣环境视觉感知
 
 | Year | Venue | Model        | Document Title                                               | 代码地址                                          | 事由     |
 | ---- | ----- | ------------ | ------------------------------------------------------------ | ------------------------------------------------- | -------- |
 | 2021 | ICCV  | DC-ShadowNet | DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network | https://github.com/Wang-Yi-Yu/Jittor_DC-ShadowNet | 新芽培育 |
-|      |       |              |                                                              |                                                   |          |
 
 
 
-## 图像生成模型
-
-| Year | Venue | Model      | Document Title                                           | 代码地址                              | 事由     |
-| ---- | ----- | ---------- | -------------------------------------------------------- | ------------------------------------- | -------- |
-| 2020 | CVPR  | StarGAN v2 | StarGAN v2: Diverse Image Synthesis for Multiple Domains | https://github.com/SidneyLu/StarGAN2j | 新芽培育 |
-|      |       |            |                                                          |                                       |          |
-
-
-
-
-
-## 图像生成模型
+## 10 图像生成模型
 
 | Year | Venue   | Model      | Document Title                                               | 代码地址                                                     | 事由     |
 | ---- | ------- | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
+| 2018 | CVPR    | StarGAN    | Multi-modal Image Generation                                 | https://github.com/lkhup/StarGan-Jittor                      | 保研面试 |
 | 2020 | CVPR    | StarGAN v2 | StarGAN v2: Diverse Image Synthesis for Multiple Domains     | https://github.com/SidneyLu/StarGAN2j                        | 新芽培育 |
+| 2020 | CVPR    | StarGAN v2 | Multi-modal Image Generation                                 | https://github.com/fwp101/stargan-v2-jittor                  | 保研面试 |
 | 2020 | NeurIPS | DDPM       | Denoising Diffusion Probabilistic Models                     | https://github.com/renren1988/jittor_diffusion               | 保研面试 |
 | 2020 | NeurIPS | DDPM       | Denoising Diffusion Probabilistic Models                     | https://github.com/zyxiang2004/JitNoise                      | 保研面试 |
 | 2020 | NeurIPS | DDPM       | Denoising Diffusion Probabilistic Models                     | https://github.com/IOTXDY/Pytorch-and-Jittor-Implementations-of-Denoising-Diffusion-Probabilistic-Models | 保研面试 |
@@ -119,97 +129,58 @@
 | 2025 | ICLR    | DiT-S/2    | One Step Diffusion via Shortcut Models                       | https://github.com/yoshimatsuu/shortcut-models-jittor        | 保研面试 |
 
 
-## 大语言模型
 
-| Year | Venue | Model | Document Title                                               | 代码地址                                       | 事由     |
-| ---- | ----- | ----- | ------------------------------------------------------------ | ---------------------------------------------- | -------- |
-| 2023 | ICLR  | ReAct | ReAct**:** Synergizing Reasoning and Acting in Language Models | https://github.com/August-Liu2004/ReAct-Jittor | 保研面试 |
-|      |       |       |                                                              |                                                |          |
-|      |       |       |                                                              |                                                |          |
-|      |       |       |                                                              |                                                |          |
+ ## 11 大语言模型
+
+| Year | Venue | Model              | Document Title                                               | 代码地址                                               | 事由     |
+| ---- | ----- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------ | -------- |
+| 2019 | arxiv | LoRA on DistilBERT | DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter | https://github.com/github-haoyan/github-haoyan         | 保研面试 |
+| 2022 | ICLR  | LoRA               | LoRA: Low-Rank Adaptation of Large Language Models           | https://github.com/thereflection84/GPT2_LoRA_Jittor    | 保研面试 |
+| 2022 | ICLR  | LoRA               | LoRA: Low-Rank Adaptation of Large Language Models           | https://github.com/waywooKwong/LoRA-Jittor             | 保研面试 |
+| 2022 | ICLR  | LoRA               | LoRA: Low-Rank Adaptation of Large Language Models           | https://github.com/Estella999/LoRA-jittor              | 保研面试 |
+| 2023 | arXiv | LLaMA              | LLaMA: Open and Efficient Foundation Language Models         | https://github.com/Hanrong-li/llama_jittor/tree/master | 保研面试 |
+| 2023 | ICLR  | ReAct              | ReAct: Synergizing Reasoning and Acting in Language Models   | https://github.com/peichenxi77/React                   | 保研面试 |
+| 2023 | ICLR  | ReAct              | ReAct**:** Synergizing Reasoning and Acting in Language Models | https://github.com/August-Liu2004/ReAct-Jittor         | 保研面试 |
 
 
 
+ ## 12 视觉语言大模型
+
+| Year | Venue        | Model        | Document Title                                               | 代码地址                                                     | 事由     |
+| ---- | ------------ | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
+| 2022 | ICLR         | LoRA         | LoRA: Low-Rank Adaptation of Large Language Models           | https://github.com/zhenrys/LoRA-GPT2-E2E-pytorch-jittor/tree/master/by-jittor/NLG/src | 保研面试 |
+| 2019 | Open Ai 博客 | GPT2         | Language Models are Unsupervised Multitask Learners          | https://github.com/GsjResilient/lora_jittor                  | 保研面试 |
+| 2023 | CVPR         | EfficientViT | EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention | https://github.com/Scarlett19uyu/Efficientvitcls-jittor      | 保研面试 |
+| 2023 | ICLR         | MoA          | Vision-Language Large Models: Model Acceleration and Efficient Fine-tuning | https://github.com/MorningYin/MoA_Jittor                     | 保研面试 |
 
 
-## 洞见隐微：红外弱小目标检测
+
+## 13 遥感目标检测
 
 | Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
 | ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
+| 2022 | TIP | UIUNet | UIU-Net: U-Net in U-Net for Infrared Small Object Detection | https://github.com/V-Ane/UIUNet | 保研面试 |
+| 2023 | TIP | DNANet | Dense nested attention network for infrared small target detection | https://github.com/Sauruang/DNANet-Jittor-Implementation | 保研面试 |
+| 2023 | TIP | DNANet | Dense Nested Attention Network for Infrared Small Target Detection | https://github.com/cicdean/Jittor-Implementation-of-DNANet | 保研面试 |
+| 2023 | ICCV | LSKNet | Large Selective Kernel Network for Remote Sensing Object Detection | https://github.com/eptq00/JDet-Nanoputian | 保研面试 |
 | 2024 | TGRS | L2SKNet | Saliency at the Helm: Steering Infrared Small Target Detection with Learnable Kernels| https://github.com/Yejiaxuan/L2SKNet-Jittor | 保研面试 |
-| 2023 | IEEE Transactions on Image Processing | DNANet       | Dense Nested Attention Network for Infrared Small Target Detection | https://github.com/cicdean/Jittor-Implementation-of-DNANet   | 保研面试 |
-| 2024 | CVPR  | MSHNet | Infrared Small Target Detection with Scale and Location Sensitivity | https://github.com/Hareplace/MSHNet_jittor/tree/master | 保研面试 |
-| 2022 | TIP | UIUNet | UIU-Net: U-Net in U-Net for Infrared Small Object Detection        | https://github.com/V-Ane/UIUNet | 保研面试 |
-| 2022 | TIP | DNANet | Dense nested attention network for infrared small target detection | https://github.com/Sauruang/DNANet-Jittor-Implementation/tree/main | 保研面试 |
+| 2024 | CVPR  | MSHNet  | Infrared Small Target Detection with Scale and Location Sensitivity | https://github.com/Hareplace/MSHNet_jittor                 | 保研面试 |
 
-## 发生在成像之前：RAW 数据噪声建模与去噪
 
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2023 | CVPR | DNF | DNF: Decouple and Feedback Network for Seeing in the Dark| https://github.com/RRRRReus/DNF-Jittor-Reproduction | 保研面试 |
-
- ## 事件相机：多模态融合与目标检测
+ ## 14 事件相机
 
 | Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
 | ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
 | 2023 | AAAI                                  | DMANet       | Dual Memory Aggregation Network for Event-based Object Detection with Learnable Representation | https://github.com/DayDayupupu/DMANet_jittor                 | 保研面试 |
 | 2023 | AAAI  | DMANet | Dual Memory Aggregation Network for Event-Based Object Detection with Learnable Representation | https://github.com/Yuyciciccc/DMANet-Jittor | 保研面试 |
 
- ## 视觉语言大模型：模型加速与高效微调
+
+ ## 15 模型轻量化
 
 | Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
 | ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2022 | ICLR                                  | LoRA         | LoRA: Low-Rank Adaptation of Large Language Models           | https://github.com/zhenrys/LoRA-GPT2-E2E-pytorch-jittor/tree/master/by-jittor/NLG/src | 保研面试 |
-| 2019 | Open Ai 博客 | GPT2 | Language Models are Unsupervised Multitask Learners | https://github.com/GsjResilient/lora_jittor | 保研面试 |
-| 2023 | CVPR | EfficientViT | EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention | https://github.com/Scarlett19uyu/Efficientvitcls-jittor | 保研面试 |
-| 2023 | ICLR | MoA | Vision-Language Large Models: Model Acceleration and Efficient Fine-tuning | https://github.com/MorningYin/MoA_Jittor | 保研面试 |
-
- ## 轻量化与高效部署：深度学习模型的实用之旅
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2022 | NeurIPS                               | DKD          | Decomposed Knowledge Distillation for Class-Incremental Semantic Segmentation | https://github.com/xp-nb/Jittor_DKD                          | 保研面试 |
 | 2021 | CVPR | RepVGG | RepVGG: Making VGG-style ConvNets Great Again | https://github.com/NeikuiColacat/RepVGG-Jittor-CIFAR100 | 保研面试 |
-| 2022 | CVPR | DKD | Lightweight and Efficient Deployment: A Practical Journey of Deep Learning Models | https://github.com/Envy6163/DKD-Jittor.git | 保研面试 |
-
- ## 面向下游任务的多模态图像融合
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2023 | Information Fusion | PSFusion | Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity | https://github.com/yzbcs/PSFusionJittor | 保研面试 |
-| 2025 | CVPR | SelfGIFNet | One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion | https://github.com/Kallen6669/SelfGIFNet?tab=readme-ov-file | 保研面试 |
-
- ## 大语言模型Agent
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2023 | arXiv | Transformer | LLaMA: Open and Efficient Foundation Language Models | https://github.com/Hanrong-li/llama_jittor/tree/master | 保研面试 |
-| 2022 | ICLR  | GPT2_LoRA          | LoRA: Low-Rank Adaptation of Large Language Models           | https://github.com/thereflection84/GPT2_LoRA_Jittor | 保研面试 |
-| 2019 | arxiv | LoRA on DistilBERT | DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter | https://github.com/github-haoyan/github-haoyan      | 保研面试 |
-| 2022 | ICLR | LoRA | LoRA: Low-Rank Adaptation of Large Language Models | https://github.com/waywooKwong/LoRA-Jittor | 保研面试 |
-| 2022 | ICLR | LoRA | LoRA: Low-Rank Adaptation of Large Language Models | https://github.com/Estella999/LoRA-jittor | 保研面试 |
-| 2023 | ICLR | ReAct | ReAct: Synergizing Reasoning and Acting in Language Models | https://github.com/peichenxi77/React?tab=readme-ov-file | 保研面试 |
-
- ## 伪装目标检测：从方法到认知
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2021 | CVPR  | PFNet   | Camouflaged Object Segmentation With Distraction Mining      | https://github.com/ejekess/PFNet_jittor       | 保研面试 |
-| 2020 | CVPR | SINet | Camouflaged Object Detection: From Method to Cognition | https://github.com/WUKEYINGING/Jittor-SINet-WKY | 保研面试 |
-
-
- ## 遥感感知模型
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2023 | ICCV | JDet-Nanoputian | Large Selective Kernel Network for Remote Sensing Object Detection | https://github.com/eptq00/JDet-Nanoputian | 保研面试 |
-
- ## 多模态图像生成
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2020 | CVPR | StarGAN v2 | Multi-modal Image Generation | https://github.com/fwp101/stargan-v2-jittor | 保研面试 |
-| 2018 | CVPR | StarGAN | Multi-modal Image Generation | https://github.com/lkhup/StarGan-Jittor | 保研面试 |
-
+| 2022 | NeurIPS                               | DKD          | Decomposed Knowledge Distillation for Class-Incremental Semantic Segmentation | https://github.com/xp-nb/Jittor_DKD                          | 保研面试 |
+| 2022 | CVPR | DKD | Decomposed Knowledge Distillation for Class-Incremental Semantic Segmentation | https://github.com/Envy6163/DKD-Jittor.git | 保研面试 |
 
 
