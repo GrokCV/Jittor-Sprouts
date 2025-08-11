@@ -14,18 +14,22 @@
 
 | Year | Venue | Model            | Document Title                                               | 代码地址                                   | 事由     |
 | ---- | ----- | ---------------- | ------------------------------------------------------------ | ------------------------------------------ | -------- |
+| 2017 | ICCV  | DCN              | Deformable Convolutional Networks                            | https://github.com/x-y20/jittor-dcn        | 保研面试 |
 | 2021 | ICCV  | Swin Transformer | Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows | https://github.com/Miaehal/jt_pytorch_swin | 保研面试 |
 
 
 
 ## 持续学习
 
-| Year | Venue | Model   | Document Title                                               | 代码地址                                      | 事由     |
-| ---- | ----- | ------- | ------------------------------------------------------------ | --------------------------------------------- | -------- |
-| 2016 | ECCV  | LWF     | Learning Without Forgetting                                  | https://github.com/kira9339/jittor_lwf        | 新芽培育 |
-| 2018 | CVPR  | PackNet | PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning | <https://github.com/Fun-James/PackNet-Jittor> | 新芽培育 |
-|      |       |         |                                                              |                                               |          |
-|      |       |         |                                                              |                                               |          |
+| Year | Venue   | Model     | Document Title                                               | 代码地址                                           | 事由     |
+| ---- | ------- | --------- | ------------------------------------------------------------ | -------------------------------------------------- | -------- |
+| 2016 | ECCV    | LWF       | Learning Without Forgetting                                  | https://github.com/kira9339/jittor_lwf             | 新芽培育 |
+| 2018 | CVPR    | PackNet   | PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning | <https://github.com/Fun-James/PackNet-Jittor>      | 新芽培育 |
+| 2022 | CVPR    | L2P       | Learning to Prompt for Continual Learning                    | https://github.com/paraliine/l2p-jittor            | 保研面试 |
+| 2022 | CVPR    | L2P       | Learning to Prompt for Continual Learning                    | https://github.com/chillybreeze-hao/l2p_jittor     | 保研面试 |
+| 2023 | NeurIPS | RanPAC    | RanPAC: Random Projections and Pre-trained Models for Continual Learning | https://github.com/Fluoroantimonic-H/RanPAC-jittor | 保研面试 |
+| 2025 | CVPR    | MoAL      | Knowledge Memorization and Rumination for Pre-trained Model-based Class-Incremental Learning | https://github.com/thirwave/MoalJt                 | 保研面试 |
+| 2025 | CVPR    | ResNet-50 | Order-Robust Class Incremental Learning: Graph-Driven Dynamic Similarity Grouping | https://github.com/Sitaye/GDDSG-Jittor             | 保研面试 |
 
 
 
@@ -37,6 +41,15 @@
 | 2021 | CVPR  | LIIF          | Learning Continuous Image Representation with Local Implicit Image Function | https://github.com/WindATree/LIIF-Jittor                | 保研面试 |
 | 2022 | CVPR  | Blind2Unblind | Blind2Unblind: Self-Supervised Image Denoising with Visible Blind Spots | https://github.com/Qu-a-n/B2UwithJittor                 | 保研面试 |
 | 2024 | TPAMI | Flow_PWC      | Self-Supervised Deep Blind Video Super-Resolution            | https://github.com/Athena-Re/Self-Blind-VSR-with-Jittor | 保研面试 |
+
+
+
+ ## 图像编辑
+
+| Year | Venue | Model  | Document Title                                              | 代码地址                                           | 事由     |
+| ---- | ----- | ------ | ----------------------------------------------------------- | -------------------------------------------------- | -------- |
+| 2020 | CVPR  | HiSD   | Fine-grained Portrait Attribute Editing                     | https://github.com/XLINYIN/HiSD-Jittor             | 保研面试 |
+| 2022 | CVPR  | Imagen | Prompt-to-Prompt Image Editing with Cross-Attention Control | https://github.com/NJUST-wyx/20---prompt-to-prompt | 保研面试 |
 
 
 
@@ -58,24 +71,13 @@
 | Year | Venue          | Model      | Document Title                                               | 代码地址                                                     | 事由     |
 | ---- | -------------- | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
 | 2015 | MICCAI         | UNet       | U-Net: Convolutional Networks for Biomedical Image Segmentation | https://github.com/xyt732/xyt                                | 保研面试 |
-| 2023 | ArXiv          | FS-MedSAM2 | RFS-MedSAM2: Exploring the Potential of SAM2 for Few-Shot Medical Image Segmentation without Fine-tuning | https://github.com/MasterAlphZero/JtToFSMedSAM2              | 保研面试 |
-| 2022 | CVPR           | Imagen     | Prompt-to-Prompt Image Editing with Cross-Attention Control  | https://github.com/NJUST-wyx/20---prompt-to-prompt?tab=readme-ov-file | 保研面试 |
-| 2023 | IEEE Xplore    | CPANet     | Cross Position Aggregation Network for Few-shot Strip Steel Surface Defect Segmentation | https://github.com/ZSLsherly/CPANet-Pytorch-Jittor/tree/master/CPANet | 保研面试 |
 | 2020 | Neurocomputing | ResNet-50  | Revisiting Metric Learning for Few-Shot Image Classification | https://github.com/withernova/Revisiting_Metric_Learning_for_Few-Shot_Image_Classification/tree/ori_essay | 保研面试 |
-| 2023 | MIDL           | UNet       | MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model | https://github.com/jarambler/MedSegDiff-Jittor/tree/main     | 保研面试 |
-| 2024 | PMLR           | MedSegDiff | MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model | https://github.com/XD-XXF/MedSegDiff-Jittor                  | 保研面试 |
+| 2023 | ArXiv          | FS-MedSAM2 | FS-MedSAM2: Exploring the Potential of SAM2 for Few-Shot Medical Image Segmentation without Fine-tuning | https://github.com/MasterAlphZero/JtToFSMedSAM2              | 保研面试 |
+| 2023 | TIM            | CPANet     | Cross Position Aggregation Network for Few-shot Strip Steel Surface Defect Segmentation | https://github.com/ZSLsherly/CPANet-Pytorch-Jittor/tree/master/CPANet | 保研面试 |
+| 2023 | TIM            | CPANet     | Cross Position Aggregation Network for Few-shot Strip Steel Surface Defect Segmentation | https://github.com/qsb2333/JittorForCPANet                   |          |
+| 2023 | MIDL           | MedSegDiff | MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model | https://github.com/jarambler/MedSegDiff-Jittor               | 保研面试 |
+| 2023 | MIDL           | MedSegDiff | MedSegDiff: Medical Image Segmentation with Diffusion Probabilistic Model | https://github.com/XD-XXF/MedSegDiff-Jittor                  | 保研面试 |
 | 2023 | ICCV           | SCCAN      | Self-Calibrated Cross Attention Network for Few-Shot Segmentation | https://github.com/AllenReder/SCCAN-jittor                   | 保研面试 |
-| 2020 | IEEE           | CPANet     | Cross Position Aggregation Network for Few-Shot Strip Steel Surface Defect Segmentation | https://github.com/SidneyLu/StarGAN2j                        | 保研面试 |
-|      |                |            |                                                              |                                                              |          |
-|      |                |            |                                                              |                                                              |          |
-|      |                |            |                                                              |                                                              |          |
-|      |                |            |                                                              |                                                              |          |
-|      |                |            |                                                              |                                                              |          |
-|      |                |            |                                                              |                                                              |          |
-|      |                |            |                                                              |                                                              |          |
-|      |                |            |                                                              |                                                              |          |
-
-
 
 
 
@@ -97,6 +99,26 @@
 
 
 
+
+
+## 图像生成模型
+
+| Year | Venue   | Model      | Document Title                                               | 代码地址                                                     | 事由     |
+| ---- | ------- | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
+| 2020 | CVPR    | StarGAN v2 | StarGAN v2: Diverse Image Synthesis for Multiple Domains     | https://github.com/SidneyLu/StarGAN2j                        | 新芽培育 |
+| 2020 | NeurIPS | DDPM       | Denoising Diffusion Probabilistic Models                     | https://github.com/renren1988/jittor_diffusion               | 保研面试 |
+| 2020 | NeurIPS | DDPM       | Denoising Diffusion Probabilistic Models                     | https://github.com/zyxiang2004/JitNoise                      | 保研面试 |
+| 2020 | NeurIPS | DDPM       | Denoising Diffusion Probabilistic Models                     | https://github.com/IOTXDY/Pytorch-and-Jittor-Implementations-of-Denoising-Diffusion-Probabilistic-Models | 保研面试 |
+| 2020 | NeurIPS | DDPM       | Denoising Diffusion Probabilistic Models                     | https://github.com/linyuxin666666/LYX_DDPM                   | 保研面试 |
+| 2021 | ICLR    | DDIM       | Denoising Diffusion Implicit Models                          | https://github.com/AprilS6/ddpm_ddim_with_jittor_pytorch     | 保研面试 |
+| 2021 | ICLR    | DDIM       | Denoising Diffusion Implicit Models                          | https://github.com/MoonKirito/Jittor-DDIM                    | 保研面试 |
+| 2021 | ICLR    | DDIM       | Denoising Diffusion Implicit Models                          | https://github.com/hupeach/DDIM                              | 保研面试 |
+| 2022 | CVPR    | LDM        | High-Resolution Image Synthesis with Latent Diffusion Models | https://github.com/zhuhe3331/Jittor-LDM-MNIST                | 保研面试 |
+| 2022 | CVPR    | LDM        | High-Resolution Image Synthesis with Latent Diffusion Models | https://github.com/Hakurei-Reimu-Gensokyo/simple-ldm         | 保研面试 |
+| 2022 | NeurIPS | CFG        | Classifier-Free Diffusion Guidance                           | https://github.com/Sunnet314159/CFG-Jittor                   | 保研面试 |
+| 2025 | ICLR    | DiT-S/2    | One Step Diffusion via Shortcut Models                       | https://github.com/yoshimatsuu/shortcut-models-jittor        | 保研面试 |
+
+
 ## 大语言模型
 
 | Year | Venue | Model | Document Title                                               | 代码地址                                       | 事由     |
@@ -110,32 +132,6 @@
 
 
 
-## 持续学习：从基础到前沿
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2025 | CVPR | MoAL | Knowledge Memorization and Rumination for Pre-trained Model-based Class-Incremental Learning | https://github.com/thirwave/MoalJt | 保研面试 |
-| 2022 | CVPR                                  | l2p          | Prompt-based Continual Learning Official Jax Implementation  | https://github.com/chillybreeze-hao/l2p_jittor               | 保研面试 |                                        |      |
-| 2025 | CVPR  | ResNet-50 | Order-Robust Class Incremental Learning: Graph-Driven Dynamic Similarity Grouping | https://github.com/Sitaye/GDDSG-Jittor | 保研面试 |
-| 2023 | NeurIPS | RanPAC | RanPAC: Random Projections and Pre-trained Models for Continual Learning | https://github.com/Fluoroantimonic-H/RanPAC-jittor | 保研面试 |
-| 2022 | CVPR | L2P | Learning to Prompt for Continual Learning | https://github.com/paraliine/l2p-jittor | 保研面试 |
-
-## 扩散式生成模型：从噪声到图像
-
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2020 | NIPS | DDPM | Denoising Diffusion Probabilistic Models | https://github.com/IOTXDY/Pytorch-and-Jittor-Implementations-of-Denoising-Diffusion-Probabilistic-Models | 保研面试 |
-| 2020 | NeurIPS                               | DDPM         | Denoising Diffusion Probabilistic Models                     | https://github.com/linyuxin666666/LYX_DDPM                   | 保研面试 |
-| 2021 | ICLR                                  | DDIM         | Denoising Diffusion Implicit Models                          | https://github.com/AprilS6/ddpm_ddim_with_jittor_pytorch     | 保研面试 |
-| 2021 | ICLR                                  | DDIM         | Denoising Diffusion Implicit Models                          | https://github.com/hupeach/DDIM                              | 保研面试 |
-| 2025 | ICLR  | DiT-S/2 | One Step Diffusion via Shortcut Models                       | https://github.com/yoshimatsuu/shortcut-models-jittor | 保研面试 |
-| 2022 | CVPR  | LDMs    | High-Resolution Image Synthesis with Latent Diffusion Models | https://github.com/Hakurei-Reimu-Gensokyo/simple-ldm  | 保研面试 |
-| 2020 | NeurIPS | DDPM | Denoising Diffusion Probabilistic Models | https://github.com/renren1988/jittor_diffusion?tab=readme-ov-file | 保研面试 |
-| 2020 | ICLR | DDIM | Denoising Diffusion Implicit Models | https://github.com/MoonKirito/Jittor-DDIM | 保研面试 |
-| 2020 | IEEE  | DDPM | Denoising Diffusion Probabilistic Models | https://github.com/zyxiang2004/JitNoise | 保研面试 |
-| 2022 | CVPR | LDM | High-Resolution Image Synthesis with Latent Diffusion Models | https://github.com/zhuhe3331/Jittor-LDM-MNIST | 保研面试 |
-| 2022 | NeurIPS | CFG | Classifier-Free Diffusion Guidance | https://github.com/Sunnet314159/CFG-Jittor |保研面试  |
-| 2020 | ICLR | DCN | Diffusion Generative Models: From Noise to Image | https://github.com/x-y20/jittor-dcn | 保研面试 |
 ## 洞见隐微：红外弱小目标检测
 
 | Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
@@ -215,8 +211,5 @@
 | 2020 | CVPR | StarGAN v2 | Multi-modal Image Generation | https://github.com/fwp101/stargan-v2-jittor | 保研面试 |
 | 2018 | CVPR | StarGAN | Multi-modal Image Generation | https://github.com/lkhup/StarGan-Jittor | 保研面试 |
 
- ## 人像属性细粒度编辑
 
-| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
-| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
-| 2020 | CVPR | HiSD | Fine-grained Portrait Attribute Editing | https://github.com/XLINYIN/HiSD-Jittor | 保研面试 |
+
