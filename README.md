@@ -65,6 +65,7 @@
 | Year | Venue              | Model      | Document Title                                               | 代码地址                                 | 事由     |
 | ---- | ------------------ | ---------- | ------------------------------------------------------------ | ---------------------------------------- | -------- |
 | 2023 | Information Fusion | PSFusion   | Rethinking the necessity of image fusion in high-level vision tasks: A practical infrared and visible image fusion network based on progressive semantic injection and scene fidelity | https://github.com/yzbcs/PSFusionJittor  | 保研 |
+| 2024 | ECAI               | SFDFusion | SFDFusion: An Efficient Spatial-Frequency Domain Fusion Network for Infrared and Visible Image Fusion | https://github.com/yvxinn/SFDFusion_jittor | 新芽 |
 | 2025 | CVPR               | SelfGIFNet | One Model for ALL: Low-Level Task Interaction Is a Key to Task-Agnostic Image Fusion | https://github.com/Kallen6669/SelfGIFNet | 保研 |
 
 
