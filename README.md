@@ -123,6 +123,7 @@
 | 2022 | CVPR    | LDM        | High-Resolution Image Synthesis with Latent Diffusion Models | https://github.com/zhuhe3331/Jittor-LDM-MNIST                | 保研 |
 | 2022 | CVPR    | LDM        | High-Resolution Image Synthesis with Latent Diffusion Models | https://github.com/Hakurei-Reimu-Gensokyo/simple-ldm         | 保研 |
 | 2022 | NeurIPS | CFG        | Classifier-Free Diffusion Guidance                           | https://github.com/Sunnet314159/CFG-Jittor                   | 保研 |
+| 2024 | ICLR    | SuppressEOT    | Get What You Want, Not What You Don't: Image Content Suppression for Text-to-Image Diffusion Models                       | https://github.com/PepaByte/SuppressEOT-Jittor        | 新芽 |
 | 2025 | ICLR    | DiT-S/2    | One Step Diffusion via Shortcut Models                       | https://github.com/yoshimatsuu/shortcut-models-jittor        | 保研 |
 
 
