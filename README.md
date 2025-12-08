@@ -80,6 +80,7 @@
 | 2017 | CVPR    | RetinaNet    | Focal Loss for Dense Object Detection                        | https://github.com/Running-Turtle1/jittor-retinanet | 保研 |
 | 2020 | ECCV    | DETR         | End-to-End Object Detection with Transformers                | https://github.com/Ber0ton/DETR-Jittor-and-Pytorch/ | 保研 |
 | 2021 | CVPR    | GFL V2       | Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection | https://github.com/FuZhongyuan/GFocalV2             | 保研 |
+| 2021 | GitHub开源社区 | NanoDet-Plus       | https://github.com/RangiLyu/nanodet | https://github.com/kyc001/NanoDet             | 新芽 |
 
 
 
@@ -103,6 +104,7 @@
 | Year | Venue | Model        | Document Title                                               | 代码地址                                          | 事由     |
 | ---- | ----- | ------------ | ------------------------------------------------------------ | ------------------------------------------------- | -------- |
 | 2021 | ICCV  | DC-ShadowNet | DC-ShadowNet: Single-Image Hard and Soft Shadow Removal Using Unsupervised Domain-Classifier Guided Network | https://github.com/Wang-Yi-Yu/Jittor_DC-ShadowNet | 新芽 |
+| 2024 | CVPR  | DAI-NET | Boosting Object Detection with Zero-Shot Day-Night Domain Adaptation | https://github.com/HardenMYG/DAI-NET-jittor | 新芽 |
 
 
 
@@ -182,4 +184,11 @@
 | 2021 | CVPR | RepVGG | RepVGG: Making VGG-style ConvNets Great Again | https://github.com/NeikuiColacat/RepVGG-Jittor-CIFAR100 | 保研 |
 | 2022 | NeurIPS                               | DKD          | Decomposed Knowledge Distillation for Class-Incremental Semantic Segmentation | https://github.com/xp-nb/Jittor_DKD                          | 保研 |
 | 2022 | CVPR | DKD | Decomposed Knowledge Distillation for Class-Incremental Semantic Segmentation | https://github.com/Envy6163/DKD-Jittor.git | 保研 |
+| 2022 | ICLR | Lora | Lora: Low-rank adaptation of large language models | https://github.com/xuzhichen139/LoRA-in-Jittor | 新芽 |
+
+## 16 提示学习
+
+| Year | Venue   | Model      | Document Title                                           | 代码地址                              | 事由       |
+| ---- | -----   | ---------- | -------------------------------------------------------- | ------------------------------------- | ---------- |
+| 2025 | ICCV | ATPrompt | Advancing Textual Prompt Learning with Anchored Attributes | https://github.com/StarryAnastasius/Jittor_ATPrompt | 新芽 |
 
